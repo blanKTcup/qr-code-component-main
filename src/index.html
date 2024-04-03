@@ -11,14 +11,33 @@
 			sizes="32x32"
 			href="./images/favicon-32x32.png"
 		/>
-		<link rel="stylesheet" href="style.scss" />
+		<link rel="stylesheet" href="./sass/style.scss" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
 
 		<title>Frontend Mentor | QR code component</title>
-
+		<link rel="icon" type="image/x-icon" href="./assets/favicon-32x32.png" />
 	</head>
 	<body class="page">
-		Improve your front-end skills by building projects Scan the QR code to visit
-		Frontend Mentor and take your coding skills to the next level
+		<div class="app">
+			<div class="main">
+				<img
+					src="./assets/image-qr-code.png"
+					alt="Frontend Mentor QR Code"
+					class="main__qr-code"
+				/>
+				<h1 class="main__header"></h1>
+				<p class="main__instructions">
+					Improve your front-end skills by building projects Scan the QR code to
+					visit Frontend Mentor and take your coding skills to the next level
+				</p>
+			</div>
+		</div>
 
 		<div class="attribution">
 			Challenge by

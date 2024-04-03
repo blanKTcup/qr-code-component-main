@@ -20,10 +20,46 @@ a {
   text-decoration: none;
 }
 
-// BASE STYLES
+// UTILITY CLASSES
+.u-normal {
+  font-weight: 400;
+}
 
+.u-bolder {
+  font-weight: 700;
+}
+
+// BASE STYLES
+.page {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  background-color: #f2f2f2;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+
+}
 
 // STYLES
+
+.main {
+
+  &__qr-code {
+
+  }
+
+  &__header {
+
+  }
+
+  &__instructions {
+
+  }
+}
 
 .attribution {
   font-size: 11px;
