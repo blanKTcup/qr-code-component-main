@@ -51,6 +51,11 @@ a {
   padding: 15px;
   border-radius: 20px;
   box-shadow: 0 25px 150px rgba(0, 0, 0, 0.12);
+
+  @media (max-width: 320px) {
+    width: 280px;
+    height: 450px;
+  }
 }
 
 // STYLES
@@ -66,6 +71,11 @@ a {
     width: 290px;
     height: 290px;
     border-radius: 10px;
+
+    @media (max-width: 320px) {
+      width: 250px;
+      height: 250px;
+    }
   }
 
   &__header {
