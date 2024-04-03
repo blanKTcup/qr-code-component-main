@@ -4,8 +4,6 @@ $color-light-grey: hsl(212, 45%, 89%);
 $color-gray-blue: hsl(220, 15%, 55%);
 $color-dark-blue: hsl(218, 44%, 22%);
 
-$ts: all 0.2s;
-
 // RESET
 *,
 *::before,
@@ -18,15 +16,6 @@ $ts: all 0.2s;
 a {
   color: inherit;
   text-decoration: none;
-}
-
-// UTILITY CLASSES
-.u-normal {
-  font-weight: 400;
-}
-
-.u-bolder {
-  font-weight: 700;
 }
 
 // BASE STYLES
